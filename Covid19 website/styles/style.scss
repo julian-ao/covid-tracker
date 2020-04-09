@@ -1,0 +1,194 @@
+$redThemeColor: #DC5E5E;
+$grayThemeColor: #5D5D5D;
+$lightGrayThemeColor: #BFBFBF;
+$lightRedThemeColor: rgba(220, 94, 94, 0.3);
+
+::selection{
+    background: $lightRedThemeColor;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+
+    div{
+        width: max-content;
+        margin: 20px auto;
+        font-family: niveau-grotesk-small-caps, sans-serif;
+        font-weight: 700;
+
+        h1{
+            margin: 0;
+
+            font-size: 5rem;
+            color: $redThemeColor;
+            text-shadow: 1.5px 1.5px $grayThemeColor;
+        }
+    
+        #header-date{
+            margin: 0;
+    
+            color: $grayThemeColor;
+            font-size: 1.75rem;
+            font-weight: 700;
+            float: right;
+        }
+    }
+    
+}
+
+nav{
+    height: 100vh;
+    width: 12.5vw;
+    position: fixed;
+    top: 0;
+    border-right: 1px solid $lightGrayThemeColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .nav-item{
+            margin: 35px 0;
+
+            a{
+                display: flex;
+                align-items: row;
+                text-decoration: none;
+                padding: 15px;
+                color: $grayThemeColor;
+                transition: .15s;
+                text-transform: uppercase;
+
+                &:hover{
+                    color: $redThemeColor;
+                    background: $lightRedThemeColor;
+                }
+
+                span{
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        #source-text{
+            position: absolute;
+            bottom: 20px;
+            text-transform: uppercase;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            font-size: .7rem;
+
+            a{
+                text-decoration: none;
+                color: $grayThemeColor;
+                transition: .15s;
+
+                &:hover{
+                    color: $redThemeColor;
+                }
+            }
+        }
+    }
+}
+
+main{
+    margin: 75px 15vw 0 15vw;
+
+    #canvas-box{
+        margin: auto;
+        width: max-content;
+
+        canvas{
+            width: 800px;
+            height: 450px;
+        }
+    }
+
+    #main-stats-box{
+        display: flex;
+        width: max-content;
+        margin: auto;
+        margin-top: 50px;
+        color: $grayThemeColor;
+
+        .main-stats-type{
+            margin: 0 25px;
+
+            .main-stats-item-top{
+                display: flex;
+                justify-content: center;
+                align-items: baseline;
+                margin-bottom: 10px;
+
+                .number{
+                    font-size: 2.5rem;
+                    font-family: niveau-grotesk-small-caps, sans-serif;
+                    font-weight: 700;
+                    color: $redThemeColor;
+                    text-shadow: 1px 1px $grayThemeColor;
+                }
+                .text{
+                    margin-left: 10px;
+                    font-size: 1.3rem;
+                    font-family: 'Roboto', sans-serif;
+                }
+            }
+
+            .main-stats-items{
+                overflow: auto;
+                height: 175px;
+
+                &::-webkit-scrollbar {
+                    width: 8px;
+                }
+                
+                &::-webkit-scrollbar-track {
+                    background: #f1f1f1;
+                }
+                
+                &::-webkit-scrollbar-thumb {
+                    background: $lightGrayThemeColor;
+                    border-radius: 10px;
+                }
+                
+                &::-webkit-scrollbar-thumb:hover {
+                    background: #888;
+                }
+                
+                .main-stats-item{
+                    display: grid;
+                    grid-template-columns: repeat(12, 1fr);
+                    border-top: 1px solid $lightGrayThemeColor;
+                    padding: 10px;
+    
+                    img{
+                        grid-column: span 3;
+                        margin: auto;
+                        height: 100%;
+                    }
+    
+                    span{
+                        font-family: niveau-grotesk-small-caps, sans-serif;
+                        font-weight: 700;
+                        grid-column: span 4;
+                        text-align: center;
+                        font-size: 1.2rem;
+                    }
+
+                    .n{
+                        grid-column: span 1;
+                    }
+                    
+                }
+            }  
+        }
+    }
+}
