@@ -12,17 +12,6 @@ let countries = [
       ]
     },
     {
-      "flag": "https://restcountries.eu/data/ala.svg",
-      "name": "Åland Islands",
-      "alpha2Code": "AX",
-      "altSpellings": [
-        "AX",
-        "Aaland",
-        "Aland",
-        "Ahvenanmaa"
-      ]
-    },
-    {
       "flag": "https://restcountries.eu/data/alb.svg",
       "name": "Albania",
       "alpha2Code": "AL",
@@ -44,27 +33,6 @@ let countries = [
       ]
     },
     {
-      "flag": "https://restcountries.eu/data/asm.svg",
-      "name": "American Samoa",
-      "alpha2Code": "AS",
-      "altSpellings": [
-        "AS",
-        "Amerika Sāmoa",
-        "Amelika Sāmoa",
-        "Sāmoa Amelika"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/and.svg",
-      "name": "Andorra",
-      "alpha2Code": "AD",
-      "altSpellings": [
-        "AD",
-        "Principality of Andorra",
-        "Principat d'Andorra"
-      ]
-    },
-    {
       "flag": "https://restcountries.eu/data/ago.svg",
       "name": "Angola",
       "alpha2Code": "AO",
@@ -72,30 +40,6 @@ let countries = [
         "AO",
         "República de Angola",
         "ʁɛpublika de an'ɡɔla"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/aia.svg",
-      "name": "Anguilla",
-      "alpha2Code": "AI",
-      "altSpellings": [
-        "AI"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/ata.svg",
-      "name": "Antarctica",
-      "alpha2Code": "AQ",
-      "altSpellings": [
-        
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/atg.svg",
-      "name": "Antigua and Barbuda",
-      "alpha2Code": "AG",
-      "altSpellings": [
-        "AG"
       ]
     },
     {
@@ -117,14 +61,6 @@ let countries = [
         "Hayastan",
         "Republic of Armenia",
         "Հայաստանի Հանրապետություն"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/abw.svg",
-      "name": "Aruba",
-      "alpha2Code": "AW",
-      "altSpellings": [
-        "AW"
       ]
     },
     {
@@ -166,16 +102,6 @@ let countries = [
       ]
     },
     {
-      "flag": "https://restcountries.eu/data/bhr.svg",
-      "name": "Bahrain",
-      "alpha2Code": "BH",
-      "altSpellings": [
-        "BH",
-        "Kingdom of Bahrain",
-        "Mamlakat al-Baḥrayn"
-      ]
-    },
-    {
       "flag": "https://restcountries.eu/data/bgd.svg",
       "name": "Bangladesh",
       "alpha2Code": "BD",
@@ -183,14 +109,6 @@ let countries = [
         "BD",
         "People's Republic of Bangladesh",
         "Gônôprôjatôntri Bangladesh"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/brb.svg",
-      "name": "Barbados",
-      "alpha2Code": "BB",
-      "altSpellings": [
-        "BB"
       ]
     },
     {
@@ -242,17 +160,6 @@ let countries = [
       ]
     },
     {
-      "flag": "https://restcountries.eu/data/bmu.svg",
-      "name": "Bermuda",
-      "alpha2Code": "BM",
-      "altSpellings": [
-        "BM",
-        "The Islands of Bermuda",
-        "The Bermudas",
-        "Somers Isles"
-      ]
-    },
-    {
       "flag": "https://restcountries.eu/data/btn.svg",
       "name": "Bhutan",
       "alpha2Code": "BT",
@@ -263,7 +170,7 @@ let countries = [
     },
     {
       "flag": "https://restcountries.eu/data/bol.svg",
-      "name": "Bolivia (Plurinational State of)",
+      "name": "Bolivia", //"Bolivia (Plurinational State of)"
       "alpha2Code": "BO",
       "altSpellings": [
         "BO",
@@ -274,15 +181,6 @@ let countries = [
         "Buliwya Mamallaqta",
         "Wuliwya Suyu",
         "Tetã Volívia"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/bes.svg",
-      "name": "Bonaire, Sint Eustatius and Saba",
-      "alpha2Code": "BQ",
-      "altSpellings": [
-        "BQ",
-        "Boneiru"
       ]
     },
     {
@@ -306,16 +204,6 @@ let countries = [
       ]
     },
     {
-      "flag": "https://restcountries.eu/data/bvt.svg",
-      "name": "Bouvet Island",
-      "alpha2Code": "BV",
-      "altSpellings": [
-        "BV",
-        "Bouvetøya",
-        "Bouvet-øya"
-      ]
-    },
-    {
       "flag": "https://restcountries.eu/data/bra.svg",
       "name": "Brazil",
       "alpha2Code": "BR",
@@ -324,41 +212,6 @@ let countries = [
         "Brasil",
         "Federative Republic of Brazil",
         "República Federativa do Brasil"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/iot.svg",
-      "name": "British Indian Ocean Territory",
-      "alpha2Code": "IO",
-      "altSpellings": [
-        "IO"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/umi.svg",
-      "name": "United States Minor Outlying Islands",
-      "alpha2Code": "UM",
-      "altSpellings": [
-        "UM"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/vgb.svg",
-      "name": "Virgin Islands (British)",
-      "alpha2Code": "VG",
-      "altSpellings": [
-        "VG"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/vir.svg",
-      "name": "Virgin Islands (U.S.)",
-      "alpha2Code": "VI",
-      "altSpellings": [
-        "VI",
-        "USVI",
-        "American Virgin Islands",
-        "U.S. Virgin Islands"
       ]
     },
     {
@@ -428,24 +281,6 @@ let countries = [
       ]
     },
     {
-      "flag": "https://restcountries.eu/data/cpv.svg",
-      "name": "Cabo Verde",
-      "alpha2Code": "CV",
-      "altSpellings": [
-        "CV",
-        "Republic of Cabo Verde",
-        "República de Cabo Verde"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/cym.svg",
-      "name": "Cayman Islands",
-      "alpha2Code": "KY",
-      "altSpellings": [
-        "KY"
-      ]
-    },
-    {
       "flag": "https://restcountries.eu/data/caf.svg",
       "name": "Central African Republic",
       "alpha2Code": "CF",
@@ -491,25 +326,6 @@ let countries = [
       ]
     },
     {
-      "flag": "https://restcountries.eu/data/cxr.svg",
-      "name": "Christmas Island",
-      "alpha2Code": "CX",
-      "altSpellings": [
-        "CX",
-        "Territory of Christmas Island"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/cck.svg",
-      "name": "Cocos (Keeling) Islands",
-      "alpha2Code": "CC",
-      "altSpellings": [
-        "CC",
-        "Territory of the Cocos (Keeling) Islands",
-        "Keeling Islands"
-      ]
-    },
-    {
       "flag": "https://restcountries.eu/data/col.svg",
       "name": "Colombia",
       "alpha2Code": "CO",
@@ -517,18 +333,6 @@ let countries = [
         "CO",
         "Republic of Colombia",
         "República de Colombia"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/com.svg",
-      "name": "Comoros",
-      "alpha2Code": "KM",
-      "altSpellings": [
-        "KM",
-        "Union of the Comoros",
-        "Union des Comores",
-        "Udzima wa Komori",
-        "al-Ittiḥād al-Qumurī"
       ]
     },
     {
@@ -542,22 +346,13 @@ let countries = [
     },
     {
       "flag": "https://restcountries.eu/data/cod.svg",
-      "name": "Congo (Democratic Republic of the)",
+      "name": "Democratic Republic of Congo", //"Congo (Democratic Republic of the)"
       "alpha2Code": "CD",
       "altSpellings": [
         "CD",
         "DR Congo",
         "Congo-Kinshasa",
         "DRC"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/cok.svg",
-      "name": "Cook Islands",
-      "alpha2Code": "CK",
-      "altSpellings": [
-        "CK",
-        "Kūki 'Āirani"
       ]
     },
     {
@@ -589,19 +384,6 @@ let countries = [
         "CU",
         "Republic of Cuba",
         "República de Cuba"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/cuw.svg",
-      "name": "Curaçao",
-      "alpha2Code": "CW",
-      "altSpellings": [
-        "CW",
-        "Curacao",
-        "Kòrsou",
-        "Country of Curaçao",
-        "Land Curaçao",
-        "Pais Kòrsou"
       ]
     },
     {
@@ -650,17 +432,6 @@ let countries = [
         "République de Djibouti",
         "Gabuutih Ummuuno",
         "Jamhuuriyadda Jabuuti"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/dma.svg",
-      "name": "Dominica",
-      "alpha2Code": "DM",
-      "altSpellings": [
-        "DM",
-        "Dominique",
-        "Wai‘tu kubuli",
-        "Commonwealth of Dominica"
       ]
     },
     {
@@ -748,7 +519,7 @@ let countries = [
         "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ"
       ]
     },
-    {
+    /*{ NO DATA, BUT EXIST IN API
       "flag": "https://restcountries.eu/data/flk.svg",
       "name": "Falkland Islands (Malvinas)",
       "alpha2Code": "FK",
@@ -756,17 +527,7 @@ let countries = [
         "FK",
         "Islas Malvinas"
       ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/fro.svg",
-      "name": "Faroe Islands",
-      "alpha2Code": "FO",
-      "altSpellings": [
-        "FO",
-        "Føroyar",
-        "Færøerne"
-      ]
-    },
+    },*/
     {
       "flag": "https://restcountries.eu/data/fji.svg",
       "name": "Fiji",
@@ -801,7 +562,7 @@ let countries = [
         "République française"
       ]
     },
-    {
+    /*{ NO DATA, BUT EXIST IN API
       "flag": "https://restcountries.eu/data/guf.svg",
       "name": "French Guiana",
       "alpha2Code": "GF",
@@ -810,26 +571,15 @@ let countries = [
         "Guiana",
         "Guyane"
       ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/pyf.svg",
-      "name": "French Polynesia",
-      "alpha2Code": "PF",
-      "altSpellings": [
-        "PF",
-        "Polynésie française",
-        "French Polynesia",
-        "Pōrīnetia Farāni"
-      ]
-    },
-    {
+    },*/
+    /*{ NO DATA, BUT EXIST IN API
       "flag": "https://restcountries.eu/data/atf.svg",
       "name": "French Southern Territories",
       "alpha2Code": "TF",
       "altSpellings": [
         "TF"
       ]
-    },
+    },*/
     {
       "flag": "https://restcountries.eu/data/gab.svg",
       "name": "Gabon",
@@ -876,14 +626,14 @@ let countries = [
         "GH"
       ]
     },
-    {
+    /*{ NO DATA, BUT EXIST IN API
       "flag": "https://restcountries.eu/data/gib.svg",
       "name": "Gibraltar",
       "alpha2Code": "GI",
       "altSpellings": [
         "GI"
       ]
-    },
+    },*/
     {
       "flag": "https://restcountries.eu/data/grc.svg",
       "name": "Greece",
@@ -895,7 +645,7 @@ let countries = [
         "Ελληνική Δημοκρατία"
       ]
     },
-    {
+    /*{ NO DATA, BUT EXIST IN API
       "flag": "https://restcountries.eu/data/grl.svg",
       "name": "Greenland",
       "alpha2Code": "GL",
@@ -903,49 +653,13 @@ let countries = [
         "GL",
         "Grønland"
       ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/grd.svg",
-      "name": "Grenada",
-      "alpha2Code": "GD",
-      "altSpellings": [
-        "GD"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/glp.svg",
-      "name": "Guadeloupe",
-      "alpha2Code": "GP",
-      "altSpellings": [
-        "GP",
-        "Gwadloup"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/gum.svg",
-      "name": "Guam",
-      "alpha2Code": "GU",
-      "altSpellings": [
-        "GU",
-        "Guåhån"
-      ]
-    },
+    },*/
     {
       "flag": "https://restcountries.eu/data/gtm.svg",
       "name": "Guatemala",
       "alpha2Code": "GT",
       "altSpellings": [
         "GT"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/ggy.svg",
-      "name": "Guernsey",
-      "alpha2Code": "GG",
-      "altSpellings": [
-        "GG",
-        "Bailiwick of Guernsey",
-        "Bailliage de Guernesey"
       ]
     },
     {
@@ -989,24 +703,6 @@ let countries = [
       ]
     },
     {
-      "flag": "https://restcountries.eu/data/hmd.svg",
-      "name": "Heard Island and McDonald Islands",
-      "alpha2Code": "HM",
-      "altSpellings": [
-        "HM"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/vat.svg",
-      "name": "Holy See",
-      "alpha2Code": "VA",
-      "altSpellings": [
-        "Sancta Sedes",
-        "Vatican",
-        "The Vatican"
-      ]
-    },
-    {
       "flag": "https://restcountries.eu/data/hnd.svg",
       "name": "Honduras",
       "alpha2Code": "HN",
@@ -1016,7 +712,7 @@ let countries = [
         "República de Honduras"
       ]
     },
-    {
+    /*{ NO DATA, BUT EXIST IN API
       "flag": "https://restcountries.eu/data/hkg.svg",
       "name": "Hong Kong",
       "alpha2Code": "HK",
@@ -1024,7 +720,7 @@ let countries = [
         "HK",
         "香港"
       ]
-    },
+    },*/
     {
       "flag": "https://restcountries.eu/data/hun.svg",
       "name": "Hungary",
@@ -1067,7 +763,7 @@ let countries = [
     },
     {
       "flag": "https://restcountries.eu/data/civ.svg",
-      "name": "Côte d'Ivoire",
+      "name": "Ivory Coast", //"Côte d'Ivoire"
       "alpha2Code": "CI",
       "altSpellings": [
         "CI",
@@ -1078,7 +774,7 @@ let countries = [
     },
     {
       "flag": "https://restcountries.eu/data/irn.svg",
-      "name": "Iran (Islamic Republic of)",
+      "name": "Iran", //"Iran (Islamic Republic of)"
       "alpha2Code": "IR",
       "altSpellings": [
         "IR",
@@ -1105,17 +801,6 @@ let countries = [
         "Éire",
         "Republic of Ireland",
         "Poblacht na hÉireann"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/imn.svg",
-      "name": "Isle of Man",
-      "alpha2Code": "IM",
-      "altSpellings": [
-        "IM",
-        "Ellan Vannin",
-        "Mann",
-        "Mannin"
       ]
     },
     {
@@ -1157,17 +842,6 @@ let countries = [
       ]
     },
     {
-      "flag": "https://restcountries.eu/data/jey.svg",
-      "name": "Jersey",
-      "alpha2Code": "JE",
-      "altSpellings": [
-        "JE",
-        "Bailiwick of Jersey",
-        "Bailliage de Jersey",
-        "Bailliage dé Jèrri"
-      ]
-    },
-    {
       "flag": "https://restcountries.eu/data/jor.svg",
       "name": "Jordan",
       "alpha2Code": "JO",
@@ -1203,16 +877,6 @@ let countries = [
       ]
     },
     {
-      "flag": "https://restcountries.eu/data/kir.svg",
-      "name": "Kiribati",
-      "alpha2Code": "KI",
-      "altSpellings": [
-        "KI",
-        "Republic of Kiribati",
-        "Ribaberiki Kiribati"
-      ]
-    },
-    {
       "flag": "https://restcountries.eu/data/kwt.svg",
       "name": "Kuwait",
       "alpha2Code": "KW",
@@ -1236,7 +900,7 @@ let countries = [
     },
     {
       "flag": "https://restcountries.eu/data/lao.svg",
-      "name": "Lao People's Democratic Republic",
+      "name": "Lao", //"Lao People's Democratic Republic"
       "alpha2Code": "LA",
       "altSpellings": [
         "LA",
@@ -1266,7 +930,7 @@ let countries = [
         "Al-Jumhūrīyah Al-Libnānīyah"
       ]
     },
-    {
+    /*{ NO DATA, BUT EXIST IN API
       "flag": "https://restcountries.eu/data/lso.svg",
       "name": "Lesotho",
       "alpha2Code": "LS",
@@ -1275,7 +939,7 @@ let countries = [
         "Kingdom of Lesotho",
         "Muso oa Lesotho"
       ]
-    },
+    },*/
     {
       "flag": "https://restcountries.eu/data/lbr.svg",
       "name": "Liberia",
@@ -1293,16 +957,6 @@ let countries = [
         "LY",
         "State of Libya",
         "Dawlat Libya"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/lie.svg",
-      "name": "Liechtenstein",
-      "alpha2Code": "LI",
-      "altSpellings": [
-        "LI",
-        "Principality of Liechtenstein",
-        "Fürstentum Liechtenstein"
       ]
     },
     {
@@ -1328,20 +982,8 @@ let countries = [
       ]
     },
     {
-      "flag": "https://restcountries.eu/data/mac.svg",
-      "name": "Macao",
-      "alpha2Code": "MO",
-      "altSpellings": [
-        "MO",
-        "澳门",
-        "Macao Special Administrative Region of the People's Republic of China",
-        "中華人民共和國澳門特別行政區",
-        "Região Administrativa Especial de Macau da República Popular da China"
-      ]
-    },
-    {
       "flag": "https://restcountries.eu/data/mkd.svg",
-      "name": "Macedonia (the former Yugoslav Republic of)",
+      "name": "Macedonia", //"Macedonia (the former Yugoslav Republic of)"
       "alpha2Code": "MK",
       "altSpellings": [
         "MK",
@@ -1378,17 +1020,6 @@ let countries = [
       ]
     },
     {
-      "flag": "https://restcountries.eu/data/mdv.svg",
-      "name": "Maldives",
-      "alpha2Code": "MV",
-      "altSpellings": [
-        "MV",
-        "Maldive Islands",
-        "Republic of the Maldives",
-        "Dhivehi Raajjeyge Jumhooriyya"
-      ]
-    },
-    {
       "flag": "https://restcountries.eu/data/mli.svg",
       "name": "Mali",
       "alpha2Code": "ML",
@@ -1399,34 +1030,6 @@ let countries = [
       ]
     },
     {
-      "flag": "https://restcountries.eu/data/mlt.svg",
-      "name": "Malta",
-      "alpha2Code": "MT",
-      "altSpellings": [
-        "MT",
-        "Republic of Malta",
-        "Repubblika ta' Malta"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/mhl.svg",
-      "name": "Marshall Islands",
-      "alpha2Code": "MH",
-      "altSpellings": [
-        "MH",
-        "Republic of the Marshall Islands",
-        "Aolepān Aorōkin M̧ajeļ"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/mtq.svg",
-      "name": "Martinique",
-      "alpha2Code": "MQ",
-      "altSpellings": [
-        "MQ"
-      ]
-    },
-    {
       "flag": "https://restcountries.eu/data/mrt.svg",
       "name": "Mauritania",
       "alpha2Code": "MR",
@@ -1434,26 +1037,6 @@ let countries = [
         "MR",
         "Islamic Republic of Mauritania",
         "al-Jumhūriyyah al-ʾIslāmiyyah al-Mūrītāniyyah"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/mus.svg",
-      "name": "Mauritius",
-      "alpha2Code": "MU",
-      "altSpellings": [
-        "MU",
-        "Republic of Mauritius",
-        "République de Maurice"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/myt.svg",
-      "name": "Mayotte",
-      "alpha2Code": "YT",
-      "altSpellings": [
-        "YT",
-        "Department of Mayotte",
-        "Département de Mayotte"
       ]
     },
     {
@@ -1468,32 +1051,13 @@ let countries = [
       ]
     },
     {
-      "flag": "https://restcountries.eu/data/fsm.svg",
-      "name": "Micronesia (Federated States of)",
-      "alpha2Code": "FM",
-      "altSpellings": [
-        "FM",
-        "Federated States of Micronesia"
-      ]
-    },
-    {
       "flag": "https://restcountries.eu/data/mda.svg",
-      "name": "Moldova (Republic of)",
+      "name": "Moldova", //"Moldova (Republic of)"
       "alpha2Code": "MD",
       "altSpellings": [
         "MD",
         "Republic of Moldova",
         "Republica Moldova"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/mco.svg",
-      "name": "Monaco",
-      "alpha2Code": "MC",
-      "altSpellings": [
-        "MC",
-        "Principality of Monaco",
-        "Principauté de Monaco"
       ]
     },
     {
@@ -1511,14 +1075,6 @@ let countries = [
       "altSpellings": [
         "ME",
         "Crna Gora"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/msr.svg",
-      "name": "Montserrat",
-      "alpha2Code": "MS",
-      "altSpellings": [
-        "MS"
       ]
     },
     {
@@ -1563,18 +1119,6 @@ let countries = [
       ]
     },
     {
-      "flag": "https://restcountries.eu/data/nru.svg",
-      "name": "Nauru",
-      "alpha2Code": "NR",
-      "altSpellings": [
-        "NR",
-        "Naoero",
-        "Pleasant Island",
-        "Republic of Nauru",
-        "Ripublik Naoero"
-      ]
-    },
-    {
       "flag": "https://restcountries.eu/data/npl.svg",
       "name": "Nepal",
       "alpha2Code": "NP",
@@ -1594,14 +1138,14 @@ let countries = [
         "Nederland"
       ]
     },
-    {
+    /*{ NO DATA, BUT EXIST IN API
       "flag": "https://restcountries.eu/data/ncl.svg",
       "name": "New Caledonia",
       "alpha2Code": "NC",
       "altSpellings": [
         "NC"
       ]
-    },
+    },*/
     {
       "flag": "https://restcountries.eu/data/nzl.svg",
       "name": "New Zealand",
@@ -1643,25 +1187,7 @@ let countries = [
         "Federal Republic of Nigeria"
       ]
     },
-    {
-      "flag": "https://restcountries.eu/data/niu.svg",
-      "name": "Niue",
-      "alpha2Code": "NU",
-      "altSpellings": [
-        "NU"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/nfk.svg",
-      "name": "Norfolk Island",
-      "alpha2Code": "NF",
-      "altSpellings": [
-        "NF",
-        "Territory of Norfolk Island",
-        "Teratri of Norf'k Ailen"
-      ]
-    },
-    {
+    /*{ NO DATA, BUT EXIST IN API
       "flag": "https://restcountries.eu/data/prk.svg",
       "name": "Korea (Democratic People's Republic of)",
       "alpha2Code": "KP",
@@ -1671,17 +1197,7 @@ let countries = [
         "조선민주주의인민공화국",
         "Chosŏn Minjujuŭi Inmin Konghwaguk"
       ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/mnp.svg",
-      "name": "Northern Mariana Islands",
-      "alpha2Code": "MP",
-      "altSpellings": [
-        "MP",
-        "Commonwealth of the Northern Mariana Islands",
-        "Sankattan Siha Na Islas Mariånas"
-      ]
-    },
+    },*/
     {
       "flag": "https://restcountries.eu/data/nor.svg",
       "name": "Norway",
@@ -1717,18 +1233,8 @@ let countries = [
       ]
     },
     {
-      "flag": "https://restcountries.eu/data/plw.svg",
-      "name": "Palau",
-      "alpha2Code": "PW",
-      "altSpellings": [
-        "PW",
-        "Republic of Palau",
-        "Beluu er a Belau"
-      ]
-    },
-    {
       "flag": "https://restcountries.eu/data/pse.svg",
-      "name": "Palestine, State of",
+      "name": "Palestine", //"Palestine, State of"
       "alpha2Code": "PS",
       "altSpellings": [
         "PS",
@@ -1788,15 +1294,6 @@ let countries = [
       ]
     },
     {
-      "flag": "https://restcountries.eu/data/pcn.svg",
-      "name": "Pitcairn",
-      "alpha2Code": "PN",
-      "altSpellings": [
-        "PN",
-        "Pitcairn Henderson Ducie and Oeno Islands"
-      ]
-    },
-    {
       "flag": "https://restcountries.eu/data/pol.svg",
       "name": "Poland",
       "alpha2Code": "PL",
@@ -1817,7 +1314,7 @@ let countries = [
         "República Portuguesa"
       ]
     },
-    {
+    /*{ NO DATA, BUT EXIST IN API
       "flag": "https://restcountries.eu/data/pri.svg",
       "name": "Puerto Rico",
       "alpha2Code": "PR",
@@ -1826,7 +1323,7 @@ let countries = [
         "Commonwealth of Puerto Rico",
         "Estado Libre Asociado de Puerto Rico"
       ]
-    },
+    },*/
     {
       "flag": "https://restcountries.eu/data/qat.svg",
       "name": "Qatar",
@@ -1847,15 +1344,6 @@ let countries = [
       ]
     },
     {
-      "flag": "https://restcountries.eu/data/reu.svg",
-      "name": "Réunion",
-      "alpha2Code": "RE",
-      "altSpellings": [
-        "RE",
-        "Reunion"
-      ]
-    },
-    {
       "flag": "https://restcountries.eu/data/rou.svg",
       "name": "Romania",
       "alpha2Code": "RO",
@@ -1868,7 +1356,7 @@ let countries = [
     },
     {
       "flag": "https://restcountries.eu/data/rus.svg",
-      "name": "Russian Federation",
+      "name": "Russia", //"Russian Federation"
       "alpha2Code": "RU",
       "altSpellings": [
         "RU",
@@ -1887,99 +1375,6 @@ let countries = [
         "Republic of Rwanda",
         "Repubulika y'u Rwanda",
         "République du Rwanda"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/blm.svg",
-      "name": "Saint Barthélemy",
-      "alpha2Code": "BL",
-      "altSpellings": [
-        "BL",
-        "St. Barthelemy",
-        "Collectivity of Saint Barthélemy",
-        "Collectivité de Saint-Barthélemy"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/shn.svg",
-      "name": "Saint Helena, Ascension and Tristan da Cunha",
-      "alpha2Code": "SH",
-      "altSpellings": [
-        "SH"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/kna.svg",
-      "name": "Saint Kitts and Nevis",
-      "alpha2Code": "KN",
-      "altSpellings": [
-        "KN",
-        "Federation of Saint Christopher and Nevis"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/lca.svg",
-      "name": "Saint Lucia",
-      "alpha2Code": "LC",
-      "altSpellings": [
-        "LC"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/maf.svg",
-      "name": "Saint Martin (French part)",
-      "alpha2Code": "MF",
-      "altSpellings": [
-        "MF",
-        "Collectivity of Saint Martin",
-        "Collectivité de Saint-Martin"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/spm.svg",
-      "name": "Saint Pierre and Miquelon",
-      "alpha2Code": "PM",
-      "altSpellings": [
-        "PM",
-        "Collectivité territoriale de Saint-Pierre-et-Miquelon"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/vct.svg",
-      "name": "Saint Vincent and the Grenadines",
-      "alpha2Code": "VC",
-      "altSpellings": [
-        "VC"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/wsm.svg",
-      "name": "Samoa",
-      "alpha2Code": "WS",
-      "altSpellings": [
-        "WS",
-        "Independent State of Samoa",
-        "Malo Saʻoloto Tutoʻatasi o Sāmoa"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/smr.svg",
-      "name": "San Marino",
-      "alpha2Code": "SM",
-      "altSpellings": [
-        "SM",
-        "Republic of San Marino",
-        "Repubblica di San Marino"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/stp.svg",
-      "name": "Sao Tome and Principe",
-      "alpha2Code": "ST",
-      "altSpellings": [
-        "ST",
-        "Democratic Republic of São Tomé and Príncipe",
-        "República Democrática de São Tomé e Príncipe"
       ]
     },
     {
@@ -2015,17 +1410,6 @@ let countries = [
       ]
     },
     {
-      "flag": "https://restcountries.eu/data/syc.svg",
-      "name": "Seychelles",
-      "alpha2Code": "SC",
-      "altSpellings": [
-        "SC",
-        "Republic of Seychelles",
-        "Repiblik Sesel",
-        "République des Seychelles"
-      ]
-    },
-    {
       "flag": "https://restcountries.eu/data/sle.svg",
       "name": "Sierra Leone",
       "alpha2Code": "SL",
@@ -2043,14 +1427,6 @@ let countries = [
         "Singapura",
         "Republik Singapura",
         "新加坡共和国"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/sxm.svg",
-      "name": "Sint Maarten (Dutch part)",
-      "alpha2Code": "SX",
-      "altSpellings": [
-        "SX"
       ]
     },
     {
@@ -2073,14 +1449,14 @@ let countries = [
         "Republika Slovenija"
       ]
     },
-    {
+    /*{ NO DATA, BUT EXIST IN API
       "flag": "https://restcountries.eu/data/slb.svg",
       "name": "Solomon Islands",
       "alpha2Code": "SB",
       "altSpellings": [
         "SB"
       ]
-    },
+    },*/
     {
       "flag": "https://restcountries.eu/data/som.svg",
       "name": "Somalia",
@@ -2105,17 +1481,8 @@ let countries = [
       ]
     },
     {
-      "flag": "https://restcountries.eu/data/sgs.svg",
-      "name": "South Georgia and the South Sandwich Islands",
-      "alpha2Code": "GS",
-      "altSpellings": [
-        "GS",
-        "South Georgia and the South Sandwich Islands"
-      ]
-    },
-    {
       "flag": "https://restcountries.eu/data/kor.svg",
-      "name": "Korea (Republic of)",
+      "name": "South Korea", //"Korea (Republic of)"
       "alpha2Code": "KR",
       "altSpellings": [
         "KR",
@@ -2172,7 +1539,7 @@ let countries = [
         "Republiek Suriname"
       ]
     },
-    {
+    /*{ NO DATA, BUT EXIST IN API
       "flag": "https://restcountries.eu/data/sjm.svg",
       "name": "Svalbard and Jan Mayen",
       "alpha2Code": "SJ",
@@ -2180,7 +1547,7 @@ let countries = [
         "SJ",
         "Svalbard and Jan Mayen Islands"
       ]
-    },
+    },*/
     {
       "flag": "https://restcountries.eu/data/swz.svg",
       "name": "Swaziland",
@@ -2239,7 +1606,7 @@ let countries = [
         "Zhōnghuá Mínguó"
       ]
     },
-    {
+    /*{ NO DATA, BUT EXIST IN API
       "flag": "https://restcountries.eu/data/tjk.svg",
       "name": "Tajikistan",
       "alpha2Code": "TJ",
@@ -2250,10 +1617,10 @@ let countries = [
         "Ҷумҳурии Тоҷикистон",
         "Çumhuriyi Toçikiston"
       ]
-    },
+    },*/
     {
       "flag": "https://restcountries.eu/data/tza.svg",
-      "name": "Tanzania, United Republic of",
+      "name": "Tanzania", //Tanzania, United Republic of"
       "alpha2Code": "TZ",
       "altSpellings": [
         "TZ",
@@ -2298,22 +1665,6 @@ let countries = [
       ]
     },
     {
-      "flag": "https://restcountries.eu/data/tkl.svg",
-      "name": "Tokelau",
-      "alpha2Code": "TK",
-      "altSpellings": [
-        "TK"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/ton.svg",
-      "name": "Tonga",
-      "alpha2Code": "TO",
-      "altSpellings": [
-        "TO"
-      ]
-    },
-    {
       "flag": "https://restcountries.eu/data/tto.svg",
       "name": "Trinidad and Tobago",
       "alpha2Code": "TT",
@@ -2343,30 +1694,14 @@ let countries = [
         "Türkiye Cumhuriyeti"
       ]
     },
-    {
+    /*{ NO DATA, BUT EXIST IN API
       "flag": "https://restcountries.eu/data/tkm.svg",
       "name": "Turkmenistan",
       "alpha2Code": "TM",
       "altSpellings": [
         "TM"
       ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/tca.svg",
-      "name": "Turks and Caicos Islands",
-      "alpha2Code": "TC",
-      "altSpellings": [
-        "TC"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/tuv.svg",
-      "name": "Tuvalu",
-      "alpha2Code": "TV",
-      "altSpellings": [
-        "TV"
-      ]
-    },
+    },*/
     {
       "flag": "https://restcountries.eu/data/uga.svg",
       "name": "Uganda",
@@ -2397,7 +1732,7 @@ let countries = [
     },
     {
       "flag": "https://restcountries.eu/data/gbr.svg",
-      "name": "United Kingdom of Great Britain and Northern Ireland",
+      "name": "UK", //"United Kingdom of Great Britain and Northern Ireland"
       "alpha2Code": "GB",
       "altSpellings": [
         "GB",
@@ -2407,7 +1742,7 @@ let countries = [
     },
     {
       "flag": "https://restcountries.eu/data/usa.svg",
-      "name": "United States of America",
+      "name": "USA", //"United States of America"
       "alpha2Code": "US",
       "altSpellings": [
         "US",
@@ -2436,7 +1771,7 @@ let countries = [
         "Ўзбекистон Республикаси"
       ]
     },
-    {
+    /*{ NO DATA, BUT EXIST IN API
       "flag": "https://restcountries.eu/data/vut.svg",
       "name": "Vanuatu",
       "alpha2Code": "VU",
@@ -2446,10 +1781,10 @@ let countries = [
         "Ripablik blong Vanuatu",
         "République de Vanuatu"
       ]
-    },
+    },*/
     {
       "flag": "https://restcountries.eu/data/ven.svg",
-      "name": "Venezuela (Bolivarian Republic of)",
+      "name": "Venezuela", //"Venezuela (Bolivarian Republic of)"
       "alpha2Code": "VE",
       "altSpellings": [
         "VE",
@@ -2459,22 +1794,12 @@ let countries = [
     },
     {
       "flag": "https://restcountries.eu/data/vnm.svg",
-      "name": "Viet Nam",
+      "name": "Vietnam", //"Viet Nam"
       "alpha2Code": "VN",
       "altSpellings": [
         "VN",
         "Socialist Republic of Vietnam",
         "Cộng hòa Xã hội chủ nghĩa Việt Nam"
-      ]
-    },
-    {
-      "flag": "https://restcountries.eu/data/wlf.svg",
-      "name": "Wallis and Futuna",
-      "alpha2Code": "WF",
-      "altSpellings": [
-        "WF",
-        "Territory of the Wallis and Futuna Islands",
-        "Territoire des îles Wallis et Futuna"
       ]
     },
     {
@@ -2486,7 +1811,7 @@ let countries = [
         "Taneẓroft Tutrimt"
       ]
     },
-    {
+    /*{ NO DATA, BUT EXIST IN API
       "flag": "https://restcountries.eu/data/yem.svg",
       "name": "Yemen",
       "alpha2Code": "YE",
@@ -2495,7 +1820,7 @@ let countries = [
         "Yemeni Republic",
         "al-Jumhūriyyah al-Yamaniyyah"
       ]
-    },
+    },*/
     {
       "flag": "https://restcountries.eu/data/zmb.svg",
       "name": "Zambia",

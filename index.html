@@ -18,37 +18,15 @@
     
     <header>
         <div>
-            <h1>COVID-19 TRACKER</h1>
+            <a href="index.html">
+                <h1>COVID-19 TRACKER</h1>
             <p id="header-date"></p>
+            </a>
         </div>
     </header>
 
     <nav>
         <div id="navbar">
-            <div class="nav-item">
-                <a href="">
-                    <span class="navbar-text">statistics</span>
-                </a>
-            </div>
-
-            <div class="nav-item">
-                <a href="">
-                    <span class="navbar-text">symptoms</span>
-                </a>
-            </div>
-
-            <div class="nav-item">
-                <a href="">
-                    <span class="navbar-text">prevention</span>
-                </a>
-            </div>
-
-            <div class="nav-item">
-                <a href="">
-                    <span class="navbar-text">treatment</span>
-                </a>
-            </div>
-
             <span id="source-text">
                 <a href="https://covid19api.com/" target="blank">
                     source: covid19api.com
@@ -58,10 +36,7 @@
     </nav>
 
     <main>
-        <div id="canvas-box">
-            <canvas id="home-chart"></canvas>
-        </div>
-
+        
         <div id="main-stats-box">
             <div class="main-stats-type">
 
@@ -94,6 +69,12 @@
             </div>
         </div>
 
+        <div id="loader"></div>
+
+        <div id="canvas-box">
+            <canvas id="home-chart" width="800" height="350"></canvas>
+        </div>
+
     </main>
 
     <footer>
@@ -105,6 +86,9 @@
     <!--SCRIPTS-->
 
     <script src="scripts/date.js"></script>
+
+
+    <script src="scripts/navigation.js"></script>
 
 
     <script src="scripts/home-chart.js"></script>

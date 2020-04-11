@@ -9,7 +9,9 @@ const main_stats_items_2 = document.getElementById("main-stats-items-2");
 const main_stats_item_top_3 = document.getElementById("main-stats-item-top-3");
 const main_stats_items_3 = document.getElementById("main-stats-items-3");
 
-let numberOfCountries = 15;
+const loader = document.getElementById("loader");
+
+let numberOfCountries = 20;
 
 let mostInfectedCountries = [];
 
@@ -36,11 +38,11 @@ async function loadMainStats(){
 
         let country = data.Countries[i]
 
-        mostInfectedCountries.push(country.Country);
+        mostInfectedCountries.push(country.CountryCode);
         main_stats_items_1.innerHTML += `
         <div class="main-stats-item">
             <span class="n">${i + 1}.</span>
-            <img src="${findFlag(country.CountryCode)}">
+            <img src="${findFlag(country.CountryCode)}" title="${country.Country}">
             <span class="country">
                 ${country.CountryCode}
             </span>
@@ -68,7 +70,7 @@ async function loadMainStats(){
         main_stats_items_2.innerHTML += `
         <div class="main-stats-item">
             <span class="n">${i + 1}.</span>
-            <img src="${findFlag(country.CountryCode)}">
+            <img src="${findFlag(country.CountryCode)}" title="${country.Country}">
             <span class="country">
                 ${country.CountryCode}
             </span>
@@ -96,7 +98,7 @@ async function loadMainStats(){
         main_stats_items_3.innerHTML += `
         <div class="main-stats-item">
             <span class="n">${i + 1}.</span>
-            <img src="${findFlag(country.CountryCode)}">
+            <img src="${findFlag(country.CountryCode)}" title="${country.Country}">
             <span class="country">
                 ${country.CountryCode}
             </span>
@@ -106,6 +108,8 @@ async function loadMainStats(){
         </div>
         `;
     }
+
+    hideLoader();
 
     createMainChart();
 }
@@ -135,3 +139,7 @@ function sortByDeaths(a, b){
 }
 
 window.onload = loadMainStats;
+
+function hideLoader(){
+    loader.style.display = "none";
+}

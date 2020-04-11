@@ -19,14 +19,24 @@ header div {
   font-weight: 700;
 }
 
-header div h1 {
+header div a {
+  text-decoration: none;
+}
+
+header div a:hover > h1 {
+  text-shadow: 0.5px 0.5px #5D5D5D;
+}
+
+header div a h1 {
   margin: 0;
   font-size: 5rem;
   color: #DC5E5E;
   text-shadow: 1.5px 1.5px #5D5D5D;
+  -webkit-transition: .1s;
+  transition: .1s;
 }
 
-header div #header-date {
+header div a #header-date {
   margin: 0;
   color: #5D5D5D;
   font-size: 1.75rem;
@@ -117,18 +127,6 @@ main {
   margin: 75px 15vw 0 15vw;
 }
 
-main #canvas-box {
-  margin: auto;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-}
-
-main #canvas-box canvas {
-  width: 800px;
-  height: 450px;
-}
-
 main #main-stats-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -174,7 +172,7 @@ main #main-stats-box .main-stats-type .main-stats-item-top .text {
 
 main #main-stats-box .main-stats-type .main-stats-items {
   overflow: auto;
-  height: 175px;
+  height: 220px;
 }
 
 main #main-stats-box .main-stats-type .main-stats-items::-webkit-scrollbar {
@@ -207,6 +205,7 @@ main #main-stats-box .main-stats-type .main-stats-items .main-stats-item img {
   grid-column: span 3;
   margin: auto;
   height: 22px;
+  border-radius: 1px;
 }
 
 main #main-stats-box .main-stats-type .main-stats-items .main-stats-item span {
@@ -219,5 +218,322 @@ main #main-stats-box .main-stats-type .main-stats-items .main-stats-item span {
 
 main #main-stats-box .main-stats-type .main-stats-items .main-stats-item .n {
   grid-column: span 1;
+}
+
+main #canvas-box {
+  margin: auto;
+  margin-top: 25px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+main #canvas-box canvas {
+  width: 800px;
+  height: 400px;
+}
+
+main #inp-box {
+  position: absolute;
+}
+
+main #inp-box #countries-text-inp {
+  padding: 10px 15px;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  border-bottom: 1px solid #BFBFBF;
+  background-color: #f0f0f0;
+  outline: 0;
+  -webkit-transition: .2s;
+  transition: .2s;
+  color: #5D5D5D;
+  font-size: 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 225px;
+}
+
+main #inp-box #countries-text-inp:focus {
+  background: rgba(220, 94, 94, 0.3);
+  border-bottom: 1px solid #DC5E5E;
+}
+
+main #inp-box #countries-text-inp:focus::-webkit-input-placeholder {
+  color: #DC5E5E;
+}
+
+main #inp-box #countries-text-inp:focus:-ms-input-placeholder {
+  color: #DC5E5E;
+}
+
+main #inp-box #countries-text-inp:focus::-ms-input-placeholder {
+  color: #DC5E5E;
+}
+
+main #inp-box #countries-text-inp:focus::placeholder {
+  color: #DC5E5E;
+}
+
+main #inp-box #countries-text-inp:focus ~ #search-results-box {
+  display: block;
+}
+
+main #inp-box #countries-text-inp:hover {
+  background: rgba(220, 94, 94, 0.3);
+  border-bottom: 1px solid #DC5E5E;
+}
+
+main #inp-box #countries-text-inp:hover::-webkit-input-placeholder {
+  color: #DC5E5E;
+}
+
+main #inp-box #countries-text-inp:hover:-ms-input-placeholder {
+  color: #DC5E5E;
+}
+
+main #inp-box #countries-text-inp:hover::-ms-input-placeholder {
+  color: #DC5E5E;
+}
+
+main #inp-box #countries-text-inp:hover::placeholder {
+  color: #DC5E5E;
+}
+
+main #inp-box #countries-text-inp:hover ~ #search-results-box {
+  display: block;
+}
+
+main #inp-box #search-results-box {
+  overflow: auto;
+  height: 350px;
+  width: 225px;
+  display: none;
+}
+
+main #inp-box #search-results-box:hover {
+  display: block;
+}
+
+main #inp-box #search-results-box::-webkit-scrollbar {
+  width: 8px;
+}
+
+main #inp-box #search-results-box::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+main #inp-box #search-results-box::-webkit-scrollbar-thumb {
+  background: #BFBFBF;
+  border-radius: 10px;
+}
+
+main #inp-box #search-results-box::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+main #inp-box #search-results-box .search-result {
+  border-bottom: 1px solid #BFBFBF;
+  padding: 10px;
+  -webkit-transition: .2s;
+  transition: .2s;
+  display: -ms-grid;
+  display: grid;
+  cursor: pointer;
+  -ms-grid-columns: (1fr)[10];
+      grid-template-columns: repeat(10, 1fr);
+}
+
+main #inp-box #search-results-box .search-result:hover {
+  background: rgba(220, 94, 94, 0.3);
+  border-bottom: 1px solid #DC5E5E;
+}
+
+main #inp-box #search-results-box .search-result:hover > p {
+  color: #DC5E5E;
+}
+
+main #inp-box #search-results-box .search-result:last-child {
+  border-bottom: none;
+}
+
+main #inp-box #search-results-box .search-result img {
+  height: 15px;
+  grid-column: span 2;
+  display: block;
+  margin: auto;
+}
+
+main #inp-box #search-results-box .search-result p {
+  grid-column: span 8;
+  font-family: niveau-grotesk-small-caps, sans-serif;
+  font-weight: 700;
+  color: #5D5D5D;
+  margin: 0;
+  margin-left: 5px;
+}
+
+main #country-stats-top {
+  width: 60%;
+  margin: auto;
+  margin-top: 130px;
+}
+
+main #country-stats-top #country-stats-top-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #BFBFBF;
+}
+
+main #country-stats-top #country-stats-top-top div {
+  display: inline-block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+main #country-stats-top #country-stats-top-top #country-name-box {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #country-stats-top #country-stats-top-top #country-name-box img {
+  height: 50px;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 1px 3px #5D5D5D;
+          box-shadow: 1px 1px 3px #5D5D5D;
+}
+
+main #country-stats-top #country-stats-top-top #country-name-box p {
+  color: #DC5E5E;
+  text-shadow: 1px 1px #5D5D5D;
+  font-size: 50px;
+  margin: 0;
+  font-family: niveau-grotesk-small-caps, sans-serif;
+  font-weight: 700;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
+main #country-stats-top #country-stats-top-top #country-population-box {
+  margin-left: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main #country-stats-top #country-stats-top-top #country-population-box #population {
+  color: #5D5D5D;
+}
+
+main #country-stats-top #country-stats-top-top #country-population-box #population p {
+  display: inline;
+}
+
+main #country-stats-top #country-stats-top-top #country-population-box #population #text {
+  font-family: 'Roboto', sans-serif;
+}
+
+main #country-stats-top #country-stats-top-top #country-population-box #population #number {
+  font-family: niveau-grotesk-small-caps, sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+main #country-stats-top #country-stats-top-top #country-population-box #percent {
+  color: #5D5D5D;
+  margin-left: 30px;
+}
+
+main #country-stats-top #country-stats-top-top #country-population-box #percent p {
+  display: inline;
+}
+
+main #country-stats-top #country-stats-top-top #country-population-box #percent #number {
+  font-family: niveau-grotesk-small-caps, sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+main #country-stats-top #country-stats-top-top #country-population-box #percent #text {
+  font-family: 'Roboto', sans-serif;
+}
+
+main #country-stats-top #country-stats-top-stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main #country-stats-top #country-stats-top-stats div {
+  margin: 30px;
+}
+
+main #country-stats-top #country-stats-top-stats div p {
+  display: inline;
+}
+
+main #country-stats-top #country-stats-top-stats div #number {
+  font-size: 2.25rem;
+  color: #DC5E5E;
+  text-shadow: 1px 1px #5D5D5D;
+  font-family: niveau-grotesk-small-caps, sans-serif;
+  font-weight: 700;
+}
+
+main #country-stats-top #country-stats-top-stats div #text {
+  font-family: 'Roboto', sans-serif;
+  color: #5D5D5D;
+  font-size: 1.25rem;
+  margin-left: 10px;
+}
+
+#loader {
+  border: 7px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 7px solid #DC5E5E;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  display: block;
+  margin-left: -50px;
+  -webkit-animation: spin 2s linear infinite;
+  /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 /*# sourceMappingURL=style.css.map */

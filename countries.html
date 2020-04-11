@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Tracker</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/mjt3tdi.css">  <!--ADOBE FONTS-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> <!--GOOGLE FONTS-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script> <!-- CHART.JS -->
+
+</head>
+<body>
+    
+    <header>
+        <div>
+            <a href="index.html">
+                <h1>COVID-19 TRACKER</h1>
+            <p id="header-date"></p>
+            </a>
+        </div>
+    </header>
+
+    <nav>
+        <div id="navbar">
+            <span id="source-text">
+                <a href="https://covid19api.com/" target="blank">
+                    source: covid19api.com
+                </a>
+            </span>
+        <div>
+    </nav>
+
+    <main>
+        <div id="inp-box">
+            <input id="countries-text-inp" type="text" placeholder="Search for country...">
+            <div id="search-results-box"></div>
+        </div>
+
+        <div id="country-stats-top">
+            <div id="country-stats-top-top">
+                <div id="country-name-box">
+                    <img src="https://restcountries.eu/data/esp.svg">
+                    <p>Spain</p>
+                </div>
+                <div id="country-population-box">
+                    <div id="population">
+                        <p id="text">Population:</p>
+                        <p id="number">49 948 842</p>
+                    </div>
+
+                    <div id="percent">
+                        <p id="number">0.23%</p>
+                        <p id="text">infected</p>
+                    </div>
+                </div>
+            </div>
+            <div id="country-stats-top-stats">
+                <div>
+                    <p id="number">451 234</p>
+                    <p id="text">infected</p>
+                </div>
+                <div>
+                    <p id="number">1 234</p>
+                    <p id="text">recovered</p>
+                </div>
+                <div>
+                    <p id="number">234</p>
+                    <p id="text">deaths</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <span>
+            
+        </span>
+    </footer>
+
+    <!--SCRIPTS-->
+
+    <script src="scripts/date.js"></script>
+
+
+    <script src="scripts/navigation.js"></script>
+
+    <script src="scripts/flags.js"></script>
+
+    <script src="scripts/countries-search.js"></script>
+
+    <script src="scripts/country.js"></script>
+
+</body>
+</html>
