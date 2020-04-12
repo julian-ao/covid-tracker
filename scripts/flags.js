@@ -1097,7 +1097,7 @@ let countries = [
         "República de Moçambique"
       ]
     },
-    {
+    /*{ NO DATA, BUT EXIST IN API
       "flag": "https://restcountries.eu/data/mmr.svg",
       "name": "Myanmar",
       "alpha2Code": "MM",
@@ -1107,7 +1107,7 @@ let countries = [
         "Republic of the Union of Myanmar",
         "Pyidaunzu Thanmăda Myăma Nainngandaw"
       ]
-    },
+    },*/
     {
       "flag": "https://restcountries.eu/data/nam.svg",
       "name": "Namibia",

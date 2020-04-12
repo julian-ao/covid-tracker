@@ -1,7 +1,13 @@
-var ctx = document.getElementById('country-chart').getContext('2d');
-
 function createCountryChart(){
-    var myChart = new Chart(ctx, {
+    let box = document.getElementById("country-chart-box");
+    box.innerHTML = ``;
+
+    box.innerHTML = `<canvas id="country-chart" width="300" height="100"></canvas>`;
+
+    let ctx = document.getElementById('country-chart').getContext('2d');
+
+    
+    let myChart = new Chart(ctx, {
         type: 'line',
         data: {
             labels: dates,

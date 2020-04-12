@@ -44,5 +44,7 @@ countries_text_inp.oninput = function(){
 
     if(numberOfSearchresults <= 9){
         search_results_box.style.height = "max-content";
+    } else{
+        search_results_box.style.height = "350px";
     }
 }

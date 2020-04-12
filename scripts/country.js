@@ -8,6 +8,8 @@ let confirmedCases = [];
 let recoveredCases = [];
 let deathCases = [];
 
+let maxCases = 0;
+
 async function updateCountry(countryNumber){
 
     let alphaCode = countries[countryNumber].alpha2Code;
@@ -43,12 +45,6 @@ async function updateCountry(countryNumber){
 
     let lastDate = Object.keys(data.timelineitems[0])[Object.keys(data.timelineitems[0]).length - 2];
 
-    console.log(lastDate);
-
-    console.log(Object.keys(data.timelineitems[0])); // ALL DATES AS STRINGS IN ARRAY
-
-    console.log([Object.keys(data.timelineitems[0]).length - 2]);
-
     let cases = Object.byString(data.timelineitems[0], lastDate + '.total_cases');
     let recoveries = Object.byString(data.timelineitems[0], lastDate + '.total_recoveries');
     let deaths = Object.byString(data.timelineitems[0], lastDate + '.total_deaths');
@@ -76,10 +72,12 @@ async function updateCountry(countryNumber){
         <p id="text">infected</p>
     `;
 
+    confirmedCases = [];
+    recoveredCases = [];
+    deathCases = [];
+    dates = [];
 
     let allDates = Object.keys(data.timelineitems[0]);
-
-    let lDate;
 
     //Object.byString(data.timelineitems[0], Object.keys(data.timelineitems[0])[Object.keys(data.timelineitems[0]).length - 2]  + '.total_cases')
 
@@ -87,10 +85,11 @@ async function updateCountry(countryNumber){
         confirmedCases.push(Object.byString(data.timelineitems[0], allDates[i] + '.total_cases'));
         recoveredCases.push(Object.byString(data.timelineitems[0], allDates[i] + '.total_recoveries'));
         deathCases.push(Object.byString(data.timelineitems[0], allDates[i] + '.total_deaths'));
-        console.log(confirmedCases);
-    }
 
-    console.log("errr");
+        if(Object.byString(data.timelineitems[0], allDates[i] + '.total_cases') > maxCases){
+            maxCases = Object.byString(data.timelineitems[0], allDates[i] + '.total_cases');
+        }
+    }
 
     dates = Object.keys(data.timelineitems[0]);
     dates.pop();
