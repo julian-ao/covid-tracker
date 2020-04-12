@@ -29,7 +29,10 @@
         <div id="navbar">
             <span id="source-text">
                 <a href="https://covid19api.com/" target="blank">
-                    source: covid19api.com
+                    covid19api.com
+                </a>
+                <a href="https://thevirustracker.com/" target="blank">
+                    thevirustracker.com
                 </a>
             </span>
         <div>
@@ -43,36 +46,18 @@
 
         <div id="country-stats-top">
             <div id="country-stats-top-top">
-                <div id="country-name-box">
-                    <img src="https://restcountries.eu/data/esp.svg">
-                    <p>Spain</p>
-                </div>
+                <div id="country-name-box"></div>
                 <div id="country-population-box">
-                    <div id="population">
-                        <p id="text">Population:</p>
-                        <p id="number">49 948 842</p>
-                    </div>
-
-                    <div id="percent">
-                        <p id="number">0.23%</p>
-                        <p id="text">infected</p>
-                    </div>
+                    <div id="population"></div>
+                    <div id="percent"></div>
                 </div>
             </div>
             <div id="country-stats-top-stats">
-                <div>
-                    <p id="number">451 234</p>
-                    <p id="text">infected</p>
-                </div>
-                <div>
-                    <p id="number">1 234</p>
-                    <p id="text">recovered</p>
-                </div>
-                <div>
-                    <p id="number">234</p>
-                    <p id="text">deaths</p>
-                </div>
             </div>
+        </div>
+
+        <div id="country-chart-box">
+            <canvas id="country-chart" width="300" height="100"></canvas>
         </div>
 
     </main>
@@ -95,6 +80,8 @@
     <script src="scripts/countries-search.js"></script>
 
     <script src="scripts/country.js"></script>
+
+    <script src="scripts/countries-chart.js"></script>
 
 </body>
 </html>

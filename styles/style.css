@@ -112,11 +112,18 @@ nav #navbar #source-text {
   font-size: .7rem;
 }
 
+nav #navbar #source-text p {
+  color: #5D5D5D;
+  margin: 0;
+}
+
 nav #navbar #source-text a {
   text-decoration: none;
   color: #5D5D5D;
   -webkit-transition: .15s;
   transition: .15s;
+  display: block;
+  margin-top: 10px;
 }
 
 nav #navbar #source-text a:hover {
@@ -308,6 +315,7 @@ main #inp-box #search-results-box {
   height: 350px;
   width: 225px;
   display: none;
+  background-color: white;
 }
 
 main #inp-box #search-results-box:hover {
@@ -497,6 +505,11 @@ main #country-stats-top #country-stats-top-stats div #text {
   color: #5D5D5D;
   font-size: 1.25rem;
   margin-left: 10px;
+}
+
+main #country-chart-box #country-chart {
+  width: 300px;
+  height: 300px;
 }
 
 #loader {
