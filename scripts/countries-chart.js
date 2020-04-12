@@ -1,4 +1,7 @@
 function createCountryChart(){
+
+    hideLoader();
+    
     let box = document.getElementById("country-chart-box");
     box.innerHTML = ``;
 

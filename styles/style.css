@@ -393,6 +393,9 @@ main #country-stats-top #country-stats-top-top {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-bottom: 15px;
   border-bottom: 1px solid #BFBFBF;
 }
@@ -432,7 +435,6 @@ main #country-stats-top #country-stats-top-top #country-name-box p {
 }
 
 main #country-stats-top #country-stats-top-top #country-population-box {
-  margin-left: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -510,6 +512,19 @@ main #country-stats-top #country-stats-top-stats div #text {
 main #country-chart-box #country-chart {
   width: 300px;
   height: 300px;
+}
+
+#countryLoader {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#countryLoader #loader {
+  top: 100px;
+  left: 50%;
 }
 
 #loader {

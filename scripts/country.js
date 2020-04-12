@@ -3,6 +3,10 @@ const populationHTML = document.getElementById("population");
 const percentHTML = document.getElementById("percent");
 const country_stats_top_stats = document.getElementById("country-stats-top-stats");
 
+const countryLoader = document.getElementById("countryLoader");
+
+hideLoader();
+
 let dates;
 let confirmedCases = [];
 let recoveredCases = [];
@@ -11,6 +15,12 @@ let deathCases = [];
 let maxCases = 0;
 
 async function updateCountry(countryNumber){
+    
+    showLoader();
+
+    countries_text_inp.value = ``;
+    allSearchResults();
+    search_results_box.style.height = "350px";
 
     let alphaCode = countries[countryNumber].alpha2Code;
 
@@ -115,4 +125,12 @@ Object.byString = function(o, s) {
 
 function numberWithSpaces(x) { // Adding spaces in large numbers
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+}
+
+function showLoader(){
+    countryLoader.style.display = "block";
+}
+
+function hideLoader(){
+    countryLoader.style.display = "none";
 }

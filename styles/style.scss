@@ -333,6 +333,7 @@ main{
         #country-stats-top-top{
             display: flex;
             align-items: center;
+            justify-content: space-between;
             padding-bottom: 15px;
             border-bottom: 1px solid $lightGrayThemeColor;
             
@@ -364,7 +365,6 @@ main{
             }
             
             #country-population-box{
-                margin-left: 100px;
                 display: flex;
 
                 #population{
@@ -440,6 +440,18 @@ main{
             width: 300px;
             height: 300px;
         }
+    }
+}
+
+#countryLoader{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    #loader{
+        top: 100px;
+        left: 50%;
     }
 }
 

@@ -10,6 +10,10 @@ links = [
         link: "countries.html"
     },
     {
+        name: "information",
+        link: ""
+    }
+    /*{
         name: "symptoms",
         link: ""
     },
@@ -20,7 +24,7 @@ links = [
     {
         name: "treatment",
         link: ""
-    }
+    }*/
 ]
 
 for(let i = 0; i < links.length; i++){
