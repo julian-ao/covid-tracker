@@ -2,10 +2,20 @@ const country_name_box = document.getElementById("country-name-box");
 const populationHTML = document.getElementById("population");
 const percentHTML = document.getElementById("percent");
 const country_stats_top_stats = document.getElementById("country-stats-top-stats");
+const country_stats_top = document.getElementById("country-stats-top");
+
+const inp_box = document.getElementById("inp-box");
 
 const countryLoader = document.getElementById("countryLoader");
 
 hideLoader();
+
+country_stats_top.style.display = "none";
+inp_box.style.width = "500px";
+search_results_box.width = "500px";
+inp_box.style.left = "50%";
+inp_box.style.marginLeft = "-250px";
+inp_box.style.marginTop = "100px";
 
 let dates;
 let confirmedCases = [];
@@ -15,6 +25,17 @@ let deathCases = [];
 let maxCases = 0;
 
 async function updateCountry(countryNumber){
+    /*country_stats_top.style.display = "block";
+    inp_box.style.width = "225px";
+    search_results_box.width = "225px";
+    inp_box.style.left = "0";*/
+
+    country_stats_top.style.display = "block";
+    inp_box.style.width = "225px";
+    search_results_box.width = "225px";
+    inp_box.style.left = "auto";
+    inp_box.style.marginLeft = "0";
+    inp_box.style.marginTop = "0";
     
     showLoader();
 

@@ -242,6 +242,11 @@ main #canvas-box canvas {
 
 main #inp-box {
   position: absolute;
+  width: 500px;
+  margin: auto;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: 75px;
 }
 
 main #inp-box #countries-text-inp {
@@ -257,7 +262,7 @@ main #inp-box #countries-text-inp {
   font-size: 1rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 225px;
+  width: 100%;
 }
 
 main #inp-box #countries-text-inp:focus {
@@ -313,7 +318,7 @@ main #inp-box #countries-text-inp:hover ~ #search-results-box {
 main #inp-box #search-results-box {
   overflow: auto;
   height: 350px;
-  width: 225px;
+  width: 500px;
   display: none;
   background-color: white;
 }
@@ -384,6 +389,7 @@ main #country-stats-top {
   width: 60%;
   margin: auto;
   margin-top: 130px;
+  display: none;
 }
 
 main #country-stats-top #country-stats-top-top {
@@ -561,6 +567,27 @@ main #info-grid .dummy {
 main #info-grid .bigga {
   grid-column: span 7;
   margin-top: 75px;
+}
+
+main #info-grid #info-source {
+  position: absolute;
+  bottom: 15px;
+  right: 25px;
+}
+
+main #info-grid #info-source a {
+  text-decoration: none;
+  color: #5D5D5D;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: .7rem;
+  -webkit-transition: .15s;
+  transition: .15s;
+}
+
+main #info-grid #info-source a:hover {
+  color: #DC5E5E;
 }
 
 #countryLoader {

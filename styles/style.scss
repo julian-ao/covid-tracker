@@ -212,6 +212,11 @@ main{
 
     #inp-box{
         position: absolute;
+        width: 500px;
+        margin: auto;
+        left: 50%;
+        margin-left: -250px;
+        margin-top: 75px;
 
         #countries-text-inp{
             padding: 10px 15px;
@@ -224,7 +229,7 @@ main{
             color: $grayThemeColor;
             font-size: 1rem;
             box-sizing: border-box;
-            width: 225px;
+            width: 100%;
 
             &:focus{
                 background: $lightRedThemeColor;
@@ -260,7 +265,7 @@ main{
         #search-results-box{
             overflow: auto;
             height: 350px;
-            width: 225px;
+            width: 500px;
             display: none;
             background-color: white;
 
@@ -329,6 +334,7 @@ main{
         width: 60%;
         margin: auto;
         margin-top: 130px;
+        display: none;
 
         #country-stats-top-top{
             display: flex;
@@ -488,6 +494,26 @@ main{
         .bigga{
             grid-column: span 7;
             margin-top: 75px;
+        }
+
+        #info-source{
+            position: absolute;
+            bottom: 15px;
+            right: 25px;
+
+            a{
+                text-decoration: none;
+                color: $grayThemeColor;
+                text-transform: uppercase;
+                font-family: 'Roboto', sans-serif;
+                text-align: center;
+                font-size: .7rem;
+                transition: .15s;
+
+                &:hover{
+                    color: $redThemeColor;
+                }
+            }
         }
     }
 }
