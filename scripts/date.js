@@ -18,6 +18,7 @@ const months = [
 let d = new Date();
 let day = d.getDate();
 let month = d.getMonth();
+let year = d.getFullYear();
 
 let plus;
 
@@ -31,4 +32,4 @@ if(day == 1){
     plus = "th";
 }
 
-header_date.innerHTML = `${months[month]} ${day + plus}`
+header_date.innerHTML = `${months[month]} ${day + plus} ${year}`

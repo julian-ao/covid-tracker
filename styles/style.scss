@@ -265,7 +265,6 @@ main{
         #search-results-box{
             overflow: auto;
             height: 350px;
-            width: 500px;
             display: none;
             background-color: white;
 
@@ -449,7 +448,8 @@ main{
     }
 
     
-    #info-grid{padding-top: 50px;
+    #info-grid{
+        padding-top: 50px;
         display: grid;
         grid-template-columns: repeat(7, 1fr);
 
@@ -493,7 +493,7 @@ main{
 
         .bigga{
             grid-column: span 7;
-            margin-top: 75px;
+            margin-top: 50px;
         }
 
         #info-source{

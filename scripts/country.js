@@ -10,19 +10,14 @@ const countryLoader = document.getElementById("countryLoader");
 
 hideLoader();
 
-country_stats_top.style.display = "none";
-inp_box.style.width = "500px";
-search_results_box.width = "500px";
-inp_box.style.left = "50%";
-inp_box.style.marginLeft = "-250px";
-inp_box.style.marginTop = "100px";
-
 let dates;
 let confirmedCases = [];
 let recoveredCases = [];
 let deathCases = [];
 
 let maxCases = 0;
+
+search_results_box.width = "500px";
 
 async function updateCountry(countryNumber){
     /*country_stats_top.style.display = "block";
@@ -36,6 +31,8 @@ async function updateCountry(countryNumber){
     inp_box.style.left = "auto";
     inp_box.style.marginLeft = "0";
     inp_box.style.marginTop = "0";
+
+    console.log(search_results_box.width);
     
     showLoader();
 
