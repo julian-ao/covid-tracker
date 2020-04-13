@@ -11,7 +11,7 @@ links = [
     },
     {
         name: "information",
-        link: ""
+        link: "info.html"
     }
     /*{
         name: "symptoms",
