@@ -7,10 +7,10 @@ function createCountryChart(){
 
     box.innerHTML = `<canvas id="country-chart" width="300" height="100"></canvas>`;
 
-    let ctx = document.getElementById('country-chart').getContext('2d');
+    let country_chart_html = document.getElementById('country-chart').getContext('2d');
 
     
-    let myChart = new Chart(ctx, {
+    let countryChart = new Chart(country_chart_html, {
         type: 'line',
         data: {
             labels: dates,

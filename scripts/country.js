@@ -20,19 +20,12 @@ let maxCases = 0;
 search_results_box.width = "500px";
 
 async function updateCountry(countryNumber){
-    /*country_stats_top.style.display = "block";
-    inp_box.style.width = "225px";
-    search_results_box.width = "225px";
-    inp_box.style.left = "0";*/
-
     country_stats_top.style.display = "block";
     inp_box.style.width = "225px";
     search_results_box.width = "225px";
     inp_box.style.left = "auto";
     inp_box.style.marginLeft = "0";
     inp_box.style.marginTop = "0";
-
-    console.log(search_results_box.width);
     
     showLoader();
 
@@ -70,6 +63,8 @@ async function updateCountry(countryNumber){
     url = "https://api.thevirustracker.com/free-api?countryTimeline=" + alphaCode;
     s = await fetch(url);
     data = await s.json();
+
+    console.log(url);
 
     let lastDate = Object.keys(data.timelineitems[0])[Object.keys(data.timelineitems[0]).length - 2];
 
