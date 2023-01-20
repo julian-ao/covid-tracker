@@ -5,5 +5,5 @@ Covid-19 statistics webpage built with HTML, CSS and JS. High School computer sc
 Key funcions:
 - Using Covid API to retrieve statistics (now outdated)
 - Search function where you can search through countries and their Covid-19 statistics.
-- USing flag API to retireve country flags (also outdated)
+- Using flag API to retireve country flags (also outdated)
 - Created charts using Google Charts
