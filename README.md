@@ -1,4 +1,4 @@
-# Covid-19-Tracker
+# Covid-Tracker
 
 Covid-19 statistics webpage built with HTML, CSS and JS. High School computer science project graded A.
 
